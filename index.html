@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!-- 
+    Academic profile website, built entirely in Bootstrap 4
+    Inspired by Academic theme for Hugo, see footer for GitHub reference link
+    Free to use, modify, and distribute :)
+	2021
+-->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Kirill V.</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		h2.montserrat-font,
+		h4.montserrat-font {
+			font-family: montserrat,sans-serif;
+			line-height: 1.25;
+			text-rendering: optimizeLegibility;
+			hyphens: manual;
+			word-wrap: break-word;
+			word-break: break-word;
+		}
+	</style>
+</head>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 col-sm-12">
+            <!-- Navigation Bar (enable if you want) -->
+			<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="navbar-toggler-icon"></span>
+				</button> 
+				<a class="navbar-brand" href="#">Firstname Lastname</a>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							 <a class="nav-link" href="#publications">Research</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">CV</a>
+					   </li>
+					</ul>
+				</div>
+			</nav> -->
+            <!-- END of Navigation Bar -->
+			<div class="row mt-4 ml-4 mr-4 mb-2">
+				<div class="col-md-4 col-sm-12 text-center">
+                    <!-- Profile Image -->
+                    <div class="pt-5 pb-5 pl-5 pr-5">
+                        <img alt="Profile Image" src="images/profile.png" class="rounded-circle img-fluid max-width:40% height:auto" />
+                    </div>
+					<!-- Socials -->
+					<div class="row">
+						<div class="col-md-12 mt-1 mb-2 text-center">
+							<a href="https://github.com/the-promised-LAN"><i class="fab fa-github fa-3x"></i></a>
+							<!-- <a href="#"><i class="fab fa-twitter fa-3x"></i></a> -->
+							<a href="https://ca.linkedin.com/in/kirill-vasilevski"><i class="fab fa-linkedin fa-3x"></i></a>
+							<a href="https://scholar.google.ca/citations?user=yIsgw7EAAAAJ&hl=en"><i class="ai ai-google-scholar ai-3x"></i></a>
+							<!-- <a href="#"><i class="ai ai-arxiv ai-3x"></i></a> -->
+						</div>
+					</div>
+					<!-- Title -->
+                    <h2 class="montserrat-font">
+						Kirill V.
+					</h2>
+                    <!-- Profile Description -->
+					<h4 class="text-center text-muted mt-3 mb-5 montserrat-font" style="font-size:1.25rem">
+						Applied ML Researcher
+					</h4>
+					<!-- Mcgill logo -->
+					<div class="col-md-12 text-center">
+						<a href="https://www.mcgill.ca/">
+							<img alt="Mcgill logo" src="images/mcgill_logo_small.png" style="max-width:60%;height:auto" />
+						</a>
+					</div>
+					<!-- CIM Logo -->
+					<div class="col-md-12 text-center">
+						<a href="https://www.mcgill.ca/cim/">
+							<img alt="CIM logo" src="images/CIM_logo_2000px_RGB.png" class="img-fluid text-center" style="max-width:70%;height:auto" />
+						</a>
+					</div>
+					<!-- Mila Logo -->
+					<div class="col-md-12 text-center">
+						<a href="https://mila.quebec/en/">
+							<img alt="mila logo" src="images/mila.png" style="max-width:50%;height:auto" />
+						</a>
+					</div>
+				</div>
+				<div class="col-md-8 mt-5">
+					<!-- <div class="row">
+						<div class="col-md-5">
+							<div class="page-header">
+								<h2>
+									About
+								</h2>
+							</div>
+						</div>
+					</div> -->
+                    <!-- <p class="lead">
+						Can add a description here
+					</p> -->
+					<!-- <p class="lead">
+						<i class="fas fa-download pr-1 fa-fw"></i> You can find my complete CV <a href="#" target="_blank">here</a>. -->
+					<!-- </p> -->
+                    <!-- Research -->
+					<h4 class="mt-5">
+						<strong>Research Interests (ever changing)</strong>
+					</h4>
+					<ul class="lead">
+						<li class="list-item">
+							Applied LLMs for Code & Software Engineering
+						</li>
+                        <li class="list-item">
+							AI Agents
+						</li>
+                        <li class="list-item">
+							Reinforcement Learning for LLM 
+						</li>
+                        <li class="list-item">
+							ML Engineering & Optimization
+						</li>
+                        <li class="list-item">
+							ML on edge
+						</li>
+						<li class="list-item">
+							Computer Vision & Multimodal Learning
+						</li>
+					</ul>
+					<div class="row mt-5">
+						<div class="col-md-6">
+							<!-- Education -->
+							<h4>
+								<strong>Education</strong>
+							</h4>
+							<ul class="list-unstyled fa-ul mt-3" style="margin-left:3.5rem">
+                                <!-- One edu institution start -->
+								<li>
+                                    <!-- <i class="fa-li fas fa-graduation-cap fa-2x"></i> -->
+									<a href="https://www.mcgill.ca/"><img class="fa-li" style="left:-3em; top:0.4em" alt="mcgill logo mini" src="images/mcgill_100x100.png"/></a>
+									<p class="lead" style="margin:0">M.Sc., Applied ML</p>
+									<p class="text-muted">McGill University, Montreal, Canada</p>
+								</li>
+                                <li>
+                                    <!-- <i class="fa-li fas fa-graduation-cap fa-2x"></i> -->
+									<a href="https://mila.quebec/en/"><img class="fa-li" style="left:-3em; top:0.4em" alt="mila logo" src="images/mila.png"/></a>
+									<!-- <p class="lead" style="margin:0">M.Sc., Applied ML</p> -->
+									<p class="text-muted">Mila Quebec AI Institute</p>
+								</li>
+                                <!-- One edu institution END -->
+								<!-- One edu institution start -->
+								<li>
+                                    <!-- <i class="fa-li fas fa-graduation-cap fa-2x"></i> -->
+									<a href="https://www.ryerson.ca/"><img class="fa-li" style="left:-3em; top:0.4em" alt="mcgill logo mini" src="images/ryerson_100x100.png"/></a>
+									<p class="lead" style="margin:0">B.Eng., Computer Engineering</p>
+									<p class="text-muted">Ryerson University, Toronto, Canada</p>
+								</li>
+                                <!-- One edu institution END -->
+                                <!-- One edu institution start -->
+								<!-- <li>
+									<a href="https://www.univ-grenoble-alpes.fr/"><img class="fa-li" style="left:-3em; top:0.4em" alt="mcgill logo mini" src="images/uga_100x100.png"/></a>
+									<p class="lead" style="margin:0">Summer Engineering & Language Program</p>
+									<p class="text-muted">Université Grenoble Alpes, Grenoble, France</p>
+								</li> -->
+                                <!-- One edu institution END -->
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<!-- Experience -->
+							<h4>
+								<strong>Experience</strong>
+							</h4>
+                            <ul class="list-unstyled fa-ul mt-3" style="margin-left:3.5rem">
+                                <!-- One experience item start -->
+                                 <li>
+									<i class="fa-li fas fa-building fa-2x"></i>
+									<!-- <a href="https://www.huawei.com/ca/corporate-citizenship/investing-in-canada"><img class="fa-li" style="left:-3em; top:0.4em" alt="RML logo" src="images/ryerson_100x100.png"/></a> -->
+									<p class="lead" style="margin:0">Senior ML Research Engineer</p>
+									<p class="text-muted">Huawei Canada</p>
+								</li>
+								<li>
+									<!-- <i class="fa-li fas fa-building fa-2x"></i> -->
+									<a href="https://www.ryerson.ca/multimedia-research-laboratory/"><img class="fa-li" style="left:-3em; top:0.4em" alt="RML logo" src="images/ryerson_100x100.png"/></a>
+									<p class="lead" style="margin:0">Research Assistant</p>
+									<p class="text-muted">Ryerson University, Canada</p>
+								</li>
+                                <!-- One experience item END -->
+								<!-- One experience item start -->
+								<li>
+                                    <!-- <i class="fa-li fas fa-building fa-2x"></i> -->
+									<a href="https://www.amd.com/"><img class="fa-li" style="left:-3em; top:0.4em" alt="mcgill logo mini" src="images/amd_100x100.png"/></a>
+									<p class="lead" style="margin:0">FET Lead, Platform Architect</p>
+									<p class="text-muted">AMD, Canada</p>
+								</li>
+                                <!-- One experience item END -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Publications, Research, Conferences, etc -->
+	<div class="row mt-1 ml-4 mr-4 mb-2">
+		<div class="col-md-12">
+			<hr />
+			<div class="row">
+				<div class="col-md-4 mb-2">
+					<div class="page-header text-right">
+						<!-- Title of section: Publications -->
+						<h2 id="publications">
+							Publications
+						</h2>
+                        <h2 id="publications">
+							(to be updated)
+						</h2>
+					</div>
+				</div>
+				<!-- Publication list -->
+				<div class="col-md-8">
+					<!-- Publication entry START -->
+					<div class="row mt-2 mb-2">
+						<div class="col-md-12" >
+							<h4>
+								<a href="https://hal.inria.fr/hal-03358968v2/document#page=94 class=" link-primary">Consensus learning with multi-rater labels for segmenting and detecting new lesions (competition paper)</a>
+								<!-- <a href="#"><i class="fab fa-github fa-1x ml-2"></i></a> -->
+							</h4>
+							<p>
+								NICHYPORUK, B., <b>VASILEVSKI, K.</b>, HU, A., MYERS-COLET, C., CARDINELL, J., SZETO, J., FALET, J.-P., ZIMMERMANN, E., SCHROETER, J., ARNOLD, D. L., AND ARBEL, T. Consensus learning with multi-rater labels for segmenting and detecting new lesions. Multiple Sclerosis New Lesions Segmentation Challenge, MICCAI (2021).
+							</p>
+						</div>
+					</div>
+					<!-- Publication entry END -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer divider -->
+	<div class="row">
+		<div class="col-md-12">
+			<hr />
+			<p class="text-center text-muted ml-3 mr-3">
+				2024, made with <i class="fa fa-heart" style="color:red" aria-hidden="true"></i> in pure <a href="https://getbootstrap.com/">Bootstrap 4</a>, inspired by <a href="https://github.com/wowchemy/starter-academic">Academic Template for Hugo</a>
+			</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
